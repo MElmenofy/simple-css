@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+/* NAVBAR */
+.navbar{    
+    position: fixed;
+    top: -31px;
+    background-color: white;
+    z-index: 1;
+}
+nav{
+    text-align: right;
+    background-color: transparent;
+    font-family: Poppins, sans-serif;
+    margin-top: 30px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-transform: uppercase; 
+    font-family: 'Poppins',sans-serif;
+    color: #555;
+}
+nav ul li a:hover{
+    color: #cccc;
+}
+.dropdown-menu{
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border-top: 3px solid #cf4a46;
+}
+.dropdown-menu .dropdown-item{
+    transition: 0.4s;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    font-weight: 500;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #cf4a46;
+    background-color: #efefef;
+    padding: 12px 20px;
+    font-weight: 500;
+}
+.hvr-grow{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.hvr-grow:hover{    
+    color: white;
+    background-color: black;
+}
+.active {
+    background-color: black !important;
+    color: tomato;
+  }
+
+/* /NAVBAR */
+
+/* HEADER */
+.hSection{    
+    margin-top: 80px;
+    margin-left: -4px;
+    padding: 0 0 10px 0;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header{
+    background-image: url(../images/background34.jpg);
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.header .mr-center{
+    margin: auto;
+}
+.amp-iconfont{
+    margin-top: 23px;
+    color: white;
+    font-size: 5px;
+}
+.size-icon1{
+    color: white;
+    font-size: 50px;
+}
+.text-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: white;
+    font-weight: 700;
+}
+.text-title2{
+    font-size: 1.85rem;
+    font-family: 'Crimson Text',serif;
+    line-height: 1.4;
+    padding-top: 0.94rem;
+    font-style: italic;
+}
+.btn-us{
+    background-color: #cf4a46;
+    border-color: #cf4a46;
+    color: #ffffff;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    transition: all .2s ease-in-out,box-shadow 2s ease-in-out;
+}
+/* /HEADRE SEC  */
+
+/* STATEMENT */
+.statement{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+}
+.s-h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.s-icon{
+    font-size: 3.5rem;
+    width: 3.5rem;
+    color: #cf4a46;
+}
+.s-h4{
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+}
+/* /STATEMENT */
+
+/* bg-address */
+.bg-addres{
+    align-items: center;
+    margin: 40px 2px 0 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #cf4a46;
+    height: 150px;
+}
+
+.calender-icon{
+    color: #fff;
+    font-size: 1rem;
+    width: 1rem;
+    margin-right: 5px;
+}
+.p-text{
+    font-size: 1.13rem;
+    font-family: 'Crimson Text',serif;
+    line-height: 1.4;
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.p-bold{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+.custom-btn{
+    font-weight: 520;
+    color: #ffffff;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    min-width: 150px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out,box-shadow 2s ease-in-out;
+    }
+.custom-btn:hover{
+    background-color: white;
+    color: #cf4a46;
+}
+/* /bg-address */
+
+/*  Welcome to our church section-gray  */
+.bg-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #efefef;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.content-div1{
+    padding: 50px 60px;
+    background-color: #ffffff;
+}
+.p-text2{
+    color: #000000;
+    font-style: normal;
+}
+.calender-icon2{
+    color: #cf4a46;
+}
+.bg-div2{
+    background-color: #cf4a46;
+}
+/* Welcome to our church section-gray  */
+
+/* OUR EVENTS */
+.event{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+.card-font{
+    line-height: 1.5;
+    font-family: 'Source Sans Pro',sans-serif;
+    padding-top: 0.94rem;
+    letter-spacing: 0.5px;
+}
+/* /OUR EVENTS */
+
+/* LATES NEWS */
+.news1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+.head-title{
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.headTitle{
+    font-size: 18.08px;
+    margin-bottom: 50px;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-style: italic;
+    color: #888;
+}
+.custom-date{
+    font-size: 1.13rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Crimson Text',serif;
+    line-height: 1.4;
+}
+.card-title-news{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.card-title-news:hover{
+    color: #cf4a46;
+}
+/* /LATES NEWS */
+
+/*  VALUES, VISION AND MISSION */
+.values{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+}
+.title2{
+    font-size: 18.08px;
+    font-family: 'Crimson Text',serif;
+    margin-bottom: 45px;
+    color: #888;
+    padding-top: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+/* /VALUES, VISION AND MISSION */
+
+/* OUR FAITH */
+.article{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.custom-btn2{
+    border: 2px solid #cf4a46;
+    transition: 0.4s;
+    padding: 10px 35px;
+    height: 50px;
+    min-width: 180px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #cf4a46;
+}
+.custom-btn2:hover{
+    color: #fff;
+    background-color: #cf4a46;
+}
+/* /OUR FAITH */
+
+/* bg-quote */
+.bg-quote{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url('../images/download.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.qoute-icon{
+    font-size: 2rem;
+    width: 2rem;
+}
+.text-quote{
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.quote-title{
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    font-family: Poppins,sans-serif;
+    font-size: 2.2rem;
+}
+.custom-btn3{
+    margin-top: 15px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 50px;
+    min-width: 150px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.custom-btn3:hover{
+    transition: 0.4s;
+    border-color: #cf4a46;
+    color: #cf4a46;
+}
+/* /bg-quote */
+/* MEET OUR PASTORS */
+.four-cards{
+    text-align: center;
+    font-style: italic;
+    color: #cf4a46;
+    font-family: 'Source Sans Pro',sans-serif;
+    padding-top: 0.94rem;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+/* /MEET OUR PASTORS */
+
+/* DONATE MONTHLY */
+.card-custom{
+    padding: 0px;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    background-color: white;
+}
+.card-custom:hover{
+    box-shadow: 0 2px 25px rgba(0,0,0,0.1);
+    border-bottom: solid 4px #cf4a46;
+}
+.card-head{
+    background-color: #29333a;
+    border: none;
+    padding: 1.9rem 1.3rem;
+    margin-bottom: 1.56rem;
+}
+
+.cardTitle{
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.4;
+    color: #ffffff; 
+    font-weight: 700;
+}
+
+.p-custom{
+    color: #000000; 
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+    line-height: 27.2px;
+}
+.div-price{
+    line-height: 1;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 1.56rem 0.95rem;
+    margin-top: 1.56rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 16px;
+}
+
+.sp-icon{
+    font-family: Poppins, sans-serif;
+    color: #cf4a46;
+    font-size: 27.04px;
+    font-weight: 700;
+}
+
+.price-icon{
+    color: #cf4a46; 
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.div-btn{
+    padding: 1.56rem;
+}
+.btn-price{
+    font-size: 14.08px;
+    transition: 0.4s;
+    font-family: "Source Sans Pro", sans-serif;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 13px 30px;
+    color: #333;
+    background-color: #FFF;
+    border: 2px solid #ddd;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.btn-price:hover{
+    color: #fff;    
+    background-color: #cf4a46;
+    border-color: #cf4a46;
+}
+.card-color2{
+    background-color: #a73d3a;
+}
+.card-color3{
+    background-color: #cf4a46;
+}
+
+.card-color4{
+    background-color: #dd6043;
+}
+/* /DONATE MONTHLY */
+
+/* footer */
+.footer{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #1b2125;
+}
+.footer-title{
+    margin-bottom: 35px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #ffffff;
+    font-weight: 700;
+}
+.text-footer{
+    font-style: normal;
+}
+/* /footer */
+
+/* footer 2 */
+.footer2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #171c1f;
+}
+.copyright{
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    
+}
